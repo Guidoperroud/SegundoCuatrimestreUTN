@@ -88,8 +88,8 @@ public class SistemaHotel {
     }
    }
 
-   public String generarReporteOcupacion(){
-    return "Total reservas: " + Reservas.size() + "\n Habitaciones ocupadas: " + Habitaciones_ocupadas.size() + "\n Ocupacion: " + Habitaciones_ocupadas.size()/TOTAL_HABITACIONES + "%";
+   public void generarReporteOcupacion(){
+    System.out.println("Total reservas: " + Reservas.size() + "\n Habitaciones ocupadas: " + Habitaciones_ocupadas.size() + "\n Ocupacion: " + Habitaciones_ocupadas.size()/TOTAL_HABITACIONES + "%"); 
 
    }
    }
